@@ -37,3 +37,7 @@ body {
 #hero__text {
     font-size: 1.2rem;
 }
+
+.contact__text {
+    font-style: italic;
+}
