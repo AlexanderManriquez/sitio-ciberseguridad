@@ -6,6 +6,7 @@
     <title>CiberSeguridad</title>
     <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css"/>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-primary px-5" >
@@ -23,6 +24,85 @@
             </div>
         </div>
     </nav>
+
+    <section class="container my-3 px-5">
+        <h2 class="ps-5">Amenazas Cibernéticas</h2>
+        <p>Las amenazas cibernéticas son acciones maliciosas que buscan comprometer la seguridad de sistemas informáticos, redes y datos. Estas amenazas pueden variar en complejidad y objetivo, desde ataques dirigidos a individuos hasta campañas masivas contra organizaciones.</p>
+
+        <h3 class="ps-5 mb-3">Tipos Comunes de Amenazas</h3>
+        <div class="cards row gap-3">
+            <div class="card col-12 col-md-4">
+                <h4>Phishing</h4>
+                <p>Es una técnica de ingeniería social mediante la cual los atacantes se hacen pasar por entidades confiables (como bancos, plataformas digitales o servicios conocidos) para engañar a los usuarios y obtener datos personales como contraseñas, números de tarjetas o credenciales.</p>
+            </div>
+            <div class="card col-12 col-md-4">
+                <h4>Ransomware</h4>
+                <p>Es un tipo de malware que cifra los archivos del usuario o sistema y exige el pago de un rescate (normalmente en criptomonedas) para restaurar el acceso a los datos.</p>
+            </div>
+            <div class="card col-12 col-md-4">
+                <h4>Malware</h4>
+                <p>Malware (software malicioso) es un programa diseñado para infiltrarse, dañar o deshabilitar sistemas informáticos sin el consentimiento del usuario. Incluye virus, gusanos, troyanos y spyware.</p>
+            </div>
+            <div class="card col-12 col-md-4">
+                <h4>Ataques DDoS</h4>
+                <p>Estos ataques buscan saturar un sitio web, servidor o red con una enorme cantidad de tráfico falso, lo que impide que usuarios legítimos puedan acceder al servicio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="examples container my-5 px-5">
+        <h3 class="ps-5">Ejemplos de Amenazas Cibernéticas</h3>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Phishing
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Ejemplo cotidiano:</strong> Recibir un correo aparentemente del banco solicitando que confirmes tu identidad ingresando tus datos en un enlace que lleva a un sitio falso.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Ransomware
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Ejemplo cotidiano:</strong> Descargar un archivo desde un correo que parece legítimo y, al abrirlo, tu computador se bloquea mostrando un mensaje que exige un pago para recuperar los archivos.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Malware
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Ejemplo cotidiano:</strong> Instalar una aplicación móvil gratuita desde una fuente no confiable que roba tus fotos, contactos y credenciales.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Ataques DDoS
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Ejemplo cotidiano:</strong> Una tienda online no puede operar durante un lanzamiento importante porque su sitio fue bombardeado por miles de peticiones falsas desde diferentes ubicaciones.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
