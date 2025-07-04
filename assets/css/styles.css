@@ -41,3 +41,15 @@ body {
 .contact__text {
     font-style: italic;
 }
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos para página consejosHTML */
+
+.protection__list-item:hover {
+    color: #a95959;
+    transition: color 0.5s ease-in-out;
+}
