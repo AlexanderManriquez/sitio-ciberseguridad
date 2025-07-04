@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>CiberSeguridad</title>
+    <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary px-5" >
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-robot fs-4"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto ">
+                <a class="nav-link text-white" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav-link text-white" href="./amenazas.html">Amenazas Comunes</a>
+                <a class="nav-link text-white" href="./consejos.html">Consejos de seguridad</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="protection container my-3 px-5 lh-lg ">
+        <h2>Buenas prácticas para protegerse</h2>
+        <ol>
+            <li class="protection__list-item">Usa contraseñas seguras y únicas <i class="fa-solid fa-lock"></i></li>
+            <li class="protection__list-item">Activa la autenticación en dos pasos (2FA) <i class="fa-solid fa-shoe-prints"></i></li>
+            <li class="protection__list-item">Desconfía de correos o mensajes sospechosos <i class="fa-solid fa-envelope-open-text"></i></li>
+            <li class="protection__list-item">Mantén tus dispositivos y software actualizados <i class="fa-solid fa-pen"></i></li>
+            <li class="protection__list-item">Evita redes Wi-Fi públicas no seguras <i class="fa-solid fa-wifi"></i></li>
+            <li class="protection__list-item">Haz copias de seguridad periódicamente <i class="fa-solid fa-clone"></i></li>
+            <li class="protection__list-item">Instala antivirus y antimalware confiables <i class="fa-solid fa-virus-slash"></i></li>
+            <li class="protection__list-item">Configura correctamente la privacidad en redes sociales <i class="fa-solid fa-gear"></i></li>
+        </ol>    
+    </section>
+
+    <section class="contact container my-3 px-5">
+        <h3>Solicitar más información</h3>
+        <p class="contact__text">¿Deseas recibir más consejos, actualizaciones o materiales gratuitos sobre cómo protegerte en el entorno digital? Completa el siguiente formulario para que podamos contactarte.</p>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Nombre Apellido" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Escríbenos aquí tus dudas y/o comentarios"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Button trigger modal -->
+    <section class="quiz container my-3 px-5">
+        <h3>¿Quieres poner a prueba tus conocimientos?</h3>
+        <p>Responde las siguientes preguntas y descubre cuánto sabes sobre ciberseguridad.</p>
+        <p>Haz clic en el botón para iniciar el cuestionario.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalQuiz">
+            Comenzar cuestionario
+        </button>
+    </section>
+    
+
+<!-- Modal -->
+    <div class="modal fade" id="modalQuiz" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+                <form action="">
+                    <legend>Evalua tus conocimientos</legend>
+                    <div class="mb-3">
+                        <label for="question1" class="form-label">1. ¿Cuál es una señal de un posible ataque de phishing?</label>
+                        <select class="form-select" id="question1" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="1">Correos con errores ortográficos y urgencia.</option>
+                            <option value="2">Correos que provienen de tu empresa.</option>
+                            <option value="3">Correos con promociones de sitios seguros</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="question2" class="form-label">2. ¿Qué hace un ransomware?</label>
+                        <select class="form-select" id="question2" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="1">Elimina todos los archivos.</option>
+                            <option value="2">Cifra los archivos y pide un rescate.</option>
+                            <option value="3">Accede a tu historial de navegació.</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="question3" class="form-label">3. ¿Cuál de los siguientes hábitos es seguro?</label>
+                        <select class="form-select" id="question3" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="1">Usar la misma contraseña para todo.</option>
+                            <option value="2">Hacer clic en cualquier enlace que recibas.</option>
+                            <option value="3">Activar autenticación en dos pasos.</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Enviar Respuestas</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</body>
+</html>
