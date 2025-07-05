@@ -9,7 +9,9 @@ body {
     color: #e0e1dd;
 
 }
-
+/* 
+ Falta corregir tamaño de letras en hero-section
+*/
 .hero-section {
     background-image: url('https://cdn.pixabay.com/photo/2017/05/29/18/22/matrix-2354492_1280.jpg');
     background-size: cover;
@@ -46,6 +48,8 @@ body {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
+
+
 
 /* Estilos para página consejosHTML */
 
