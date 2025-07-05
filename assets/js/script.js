@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         if (q3 === correcta3) {
-            mensaje += "✅ Pregunta 3: ¿Cuál de los siguientes hábitos es seguro?<br> La respuesta es correcta: 'Cifra los archivos y pide un rescate.'<br>";
+            mensaje += "✅ Pregunta 3: ¿Cuál de los siguientes hábitos es seguro?<br> La respuesta es correcta: 'Activar autenticación en dos pasos.'<br>";
         } else {
-            mensaje += "❌ Pregunta 3: Incorrecta. La respuesta correcta es: 'Actilet autenticación en dos pasos.'<br>";
+            mensaje += "❌ Pregunta 3: Incorrecta. La respuesta correcta es: 'Activar autenticación en dos pasos.'<br>";
         }
 
         // Mostrar el mensaje en pantalla (por ejemplo, debajo del modal)
